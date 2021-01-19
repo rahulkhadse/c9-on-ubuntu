@@ -4,7 +4,7 @@ These are set of commands to install/host c9 on ubuntu
 
 
 
-`
+```
 sudo apt-get install git -y
 sudo apt-get update
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
@@ -31,4 +31,4 @@ pm2 --version
 pm2 start c9sdk/server.js --name "c9" -- --auth username:password --port 8000 -w ~ --collab true
 pm2 logs c9
 clear
-`
+```
