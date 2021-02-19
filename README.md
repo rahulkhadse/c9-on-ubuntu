@@ -20,9 +20,9 @@ nvm --version
 sudo apt install build-essential
 git clone https://github.com/c9/core.git c9sdk
 cd c9sdk
-sudo apt install python2
+sudo apt install python2 -y
 python --version
-sudo apt install python
+sudo apt install python -y
 python --version
 scripts/install-sdk.sh
 cd ~
