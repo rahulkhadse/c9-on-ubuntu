@@ -17,7 +17,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 nvm --version
-sudo apt install build-essential
+sudo apt install build-essential -y
 git clone https://github.com/c9/core.git c9sdk
 cd c9sdk
 sudo apt install python2 -y
